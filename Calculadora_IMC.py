@@ -1,5 +1,6 @@
 #le damos la bienvenida al usuario
-print("Bienvenido a la calculadora de su índice de masa corporal")
+print('¡Bienvenido a la calculadora de su índice de masa corporal, a continuacion ingrese sus datos!\n')
+
 
 #Creamos un ciclo while para  que el usuario ingrese cada uno de los datos
 while True:
