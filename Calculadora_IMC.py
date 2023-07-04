@@ -35,7 +35,10 @@ while True:
 while True:
     try:
         edad = int(input('Ingrese su edad: '))
-        break
+        if edad < 0:
+            print("No puede ingresar numeros negativos")
+        else:
+            break
     except ValueError:
         print('Error, debe ingresar un número')
       
@@ -43,7 +46,10 @@ while True:
 while True:
     try:
         peso = float(input('Ingrese su peso: '))
-        break
+        if edad < 0:
+            print("No puede ingresar numeros negativos")
+        else:
+            break
     except ValueError:
         print('Error, debe ingresar un número')
         
@@ -53,7 +59,10 @@ while True:
 while True:
     try:
         estatura = float(input("Ingrese su estatura: "))
-        break
+        if edad < 0:
+            print("No puede ingresar numeros negativos")
+        else:
+            break
     except ValueError:
         print('Error,Debe ingresar un número')    
         
