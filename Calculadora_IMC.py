@@ -12,7 +12,10 @@ while True:
     if nombre == "":
         print("No ingreso ningun dato, debe ingresar su nombre")
     elif nombre.isdigit():
-        print("no debe de ingresar números")    
+        print("No debe de ingresar números")
+    elif nombre.isalpha() == False:
+        print("Error, no esta permitido ingresar caracteres que no sean letras del alfabeto")
+               
     else:
         break
 
@@ -20,7 +23,9 @@ while True:
     apellido_pat = input('Ingrese su apellido paterno: ')
     if apellido_pat == "":
         print("No a ingresado nungun dato, debe ingresar su apellido")
-        
+    elif nombre.isdigit():
+        print("No debe de ingresar números") 
+
     else:
         break
             
@@ -28,7 +33,8 @@ while True:
     apellido_mat = input('Ingrese su apellido materno: ')
     if apellido_mat == "":
         print('No ingreso ningun dato, debe ingresar su apellido materno')
-        
+    elif nombre.isdigit():
+        print("No debe de ingresar números")    
     else:
         break    
         
